@@ -6,6 +6,15 @@
   font-family: "Exo 2", sans-serif;
   /* font-optical-sizing: auto; */
 }
+body{
+  background-color: black;
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.5)),
+      url('img/bg.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
 
 img {
   /* height: 200px; */
@@ -26,7 +35,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 0.2rem;
+ ;
 }
 
 .logo-container {
@@ -62,6 +72,7 @@ a {
 
 .nav-items div a {
   color: black;
+  color: white
 }
 
 .nav-items div:hover {
@@ -102,13 +113,13 @@ a {
 
 .hero-section-heading {
   font-size: 35px;
-  color: #343d68;
+  color: #c3caec;
   font-weight: 500;
 }
 
 .role {
   font-family: "Architects Daughter", cursive;
-  color: #4e45d5;
+  color: #dedee0;
   font-weight: 800;
 }
 
@@ -168,6 +179,7 @@ a {
 }
 
 .my-img {
+  background-color: white;
   padding: 2.5rem;
   filter: grayscale(1);
   transition: all 1s;
