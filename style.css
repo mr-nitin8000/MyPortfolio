@@ -11,9 +11,11 @@ body{
   background:
       linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.5)),
       url('img/bg.gif');
+      background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -440,6 +442,8 @@ a {
 
 .project-a {
   /* display: none; */
+  /* width: 2rem;
+  height: 2rem; */
 }
 
 .git-img,
@@ -493,6 +497,10 @@ a {
   margin-left: 120px;
   background-image: url(img/project/kavach.jpg);
 }
+#project-crypto {
+  margin-left: 120px;
+  background-image: url(img/project/cripto.png);
+}
 
 @media (max-width: 1300px) {
   .page-header {
@@ -534,7 +542,8 @@ a {
   }
   #project2,
   #project4,
-  #project6 {
+  #project6,
+    #project-crypto {
     margin-left: 0;
   }
   .project-skills-container {
@@ -965,7 +974,7 @@ form {
 
 .nav-over {
   width: 100%;
-  background-color: #343d6810;
+  background-color: #eff1f81c;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -978,6 +987,7 @@ form {
 
 .nav-over-a {
   color: black;
+  color: white;
 }
 
 .nav-over-a:hover {
@@ -1031,7 +1041,9 @@ form {
 }
 
 .certi {
-  background-color: #4252a52f;
+  background-color: #7582c527;
+  backdrop-filter: blur(2px);
+  color: white;
   padding: 4rem 2rem;
   margin-top: 2rem;
 }
@@ -1073,7 +1085,7 @@ form {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  color: #4e45d5;
+  color: rgba(255, 255, 255, 0.76);
 }
 
 .cert-other {
